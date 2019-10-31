@@ -22,7 +22,8 @@ library(timeDate)
     return (temp3)
   }
   
-  # load CSV file with project plan information
+# load CSV file with project plan information
+# See CSV file format included
   d <- read.csv(csvFile)
   
   # convert to date
